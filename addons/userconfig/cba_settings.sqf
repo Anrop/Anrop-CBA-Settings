@@ -36,6 +36,7 @@ force ace_medical_bleedingCoefficient = 2;                // Coefficient for con
 force ace_medical_blood_bloodLifetime = 900;              // Lifetime of blood drop objects
 force ace_medical_blood_enabledFor = 2;                   // Blood drops enabled for all units
 force ace_medical_blood_maxBloodObjects = 300;            // Maximum number of blood drop objects that can be spawned
+force ace_medical_deathChance = 1;                        // Chance of dying to a fatal injury.
 force ace_medical_fatalDamageSource = 2;                  // Either large hits to vital organs or sum of trauma can be fatal
 force ace_medical_feedback_bloodVolumeEffectType = 2;     // Low blood volume effect is Icon + Color Fading
 force ace_medical_feedback_painEffectType = 1;            // Pain effect type is "Pulsing Blur"
