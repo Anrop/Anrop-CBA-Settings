@@ -7,12 +7,15 @@ force ace_common_checkPBOsAction = 0;
 force ace_common_checkPBOsCheckAll = false;
 
 force ace_cookoff_enable = 2;
+force ace_cookoff_enableFire = true;
 force ace_cookoff_enableAmmobox = true;
 force ace_cookoff_enableAmmoCookoff = false;
-force ace_cookoff_ammoCookoffDuration = 0.1;
-force ace_cookoff_probabilityCoef = 0.3;
+force ace_cookoff_ammoCookoffDuration = 1;
+force ace_cookoff_probabilityCoef = 1;
 
 force ace_finger_enabled = true;
+
+force ace_fire_enableFlare = true;
 
 force ace_gforces_enabledFor = 0;
 
@@ -22,6 +25,8 @@ force ace_goggles_showClearGlasses = true;
 force ace_hearing_enableCombatDeafness = false;
 
 force ace_interact_menu_consolidateSingleChild = true;
+
+force ace_interaction_interactWithTerrainObjects = true;
 
 force ace_map_mapShowCursorCoordinates = true;
 
@@ -66,7 +71,7 @@ force ace_medical_treatment_holsterRequired = 0;          // Holstered weapon is
 force ace_medical_treatment_litterCleanupDelay = 600;     // Litter lifetime is 600 seconds
 force ace_medical_treatment_locationEpinephrine = 0;      // Epinephrine can be used anywhere
 force ace_medical_treatment_locationPAK = 3;              // PAK can be used in vehicles and facilities
-force ace_medical_treatment_locationsBoostTraining = false;// Locations do not boost training
+force ace_medical_treatment_locationsBoostTraining = true;// Locations boost training
 force ace_medical_treatment_locationSurgicalKit = 0;      // Surgical Kit can be used Anywhere
 force ace_medical_treatment_maxLitterObjects = 200;       // Maximum number of litter objects which can be spawned
 force ace_medical_treatment_medicEpinephrine = 0;         // Anyone can administer epinephrine
@@ -81,7 +86,9 @@ force ace_nightvision_fogScaling = 1;
 force ace_nightvision_effectScaling = 1;
 force ace_nightvision_aimDownSightsBlur = 1;
 
+force ace_overheating_showParticleEffectsForEveryone = true;
 force ace_overheating_unJamOnreload = true;
+force ace_overheating_unJamOnSwapBarrel = true;
 
 force ace_repair_autoShutOffEngineWhenStartingRepair = true;
 
