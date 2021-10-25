@@ -1,3 +1,7 @@
+force acex_headless_enabled = true;
+
+force acex_sitting_enable = true;
+
 force ace_advanced_fatigue_enabled = false;
 
 force ace_captives_allowHandcuffOwnSide = false;
@@ -6,11 +10,11 @@ force ace_captives_requireSurrender = 0;
 force ace_common_checkPBOsAction = 0;
 force ace_common_checkPBOsCheckAll = false;
 
+force ace_cookoff_ammoCookoffDuration = 1;
 force ace_cookoff_enable = 2;
-force ace_cookoff_enableFire = true;
 force ace_cookoff_enableAmmobox = true;
 force ace_cookoff_enableAmmoCookoff = false;
-force ace_cookoff_ammoCookoffDuration = 1;
+force ace_cookoff_enableFire = true;
 force ace_cookoff_probabilityCoef = 1;
 
 force ace_finger_enabled = true;
@@ -24,14 +28,14 @@ force ace_goggles_showClearGlasses = true;
 
 force ace_hearing_enableCombatDeafness = false;
 
-force ace_interact_menu_consolidateSingleChild = true;
-
 force ace_interaction_interactWithTerrainObjects = true;
+
+force ace_interact_menu_consolidateSingleChild = true;
 
 force ace_map_mapShowCursorCoordinates = true;
 
-force ace_medical_ai_enabledFor = 2;                      // Medical AI is Enabled for all clients and server
 force ace_medical_AIDamageThreshold = 0.8;                // The amount of damage an AI unit can take before dying.
+force ace_medical_ai_enabledFor = 2;                      // Medical AI is Enabled for all clients and server
 force ace_medical_bleedingCoefficient = 2;                // Coefficient for controlling the bleeding speed
 force ace_medical_blood_bloodLifetime = 900;              // Lifetime of blood drop objects
 force ace_medical_blood_enabledFor = 2;                   // Blood drops enabled for all units
@@ -59,6 +63,7 @@ force ace_medical_statemachine_cardiacArrestBleedoutEnabled = true; // Unit can 
 force ace_medical_statemachine_cardiacArrestTime = 240;   // Controls how long it takes to die from cardiac arrest
 force ace_medical_statemachine_fatalInjuriesAI = 0;       // AI will always die instantly.
 force ace_medical_statemachine_fatalInjuriesPlayer = 1;   // Players can only receive fatal injuries when in Cardiac Arrest 
+
 force ace_medical_treatment_advancedBandages = 2;         // Advanced Bandages are Enabled and wounds Can Reopen
 force ace_medical_treatment_advancedDiagnose = true;      // Enables the Check Pulse, Check Blood Pressure, and Check Response instead of generic Diagnose action.
 force ace_medical_treatment_advancedMedication = true;    // Enables extended, more in-depth medication handling
@@ -87,7 +92,6 @@ force ace_medical_treatment_medicIV = 1;                  // Only medic can set 
 force ace_medical_treatment_medicPAK = 1;                 // Only medic can use PAK
 force ace_medical_treatment_medicSurgicalKit = 1;         // Only medic can use Surgical Kit
 force ace_medical_treatment_timeCoefficientPAK = 1.5;     // Time Coefficient that Modifies how long a PAK takes to apply
-force ace_medical_treatment_woundStitchTime = 5;          // Time to Stitch wounds
 force ace_medical_treatment_treatmentTimeAutoinjector = 5;// Time to administer AutoInjector
 force ace_medical_treatment_treatmentTimeBodyBag = 15;    // Time to put body in bodybag
 force ace_medical_treatment_treatmentTimeCPR = 15;        // Time to administer CPR
@@ -95,11 +99,12 @@ force ace_medical_treatment_treatmentTimeIV = 12;         // Time to place IV
 force ace_medical_treatment_treatmentTimeSplint = 7;      // Time to apply Splint
 force ace_medical_treatment_treatmentTimeTourniquet = 7;  // Time to apply Tourniquet
 force ace_medical_treatment_woundReopenChance = 1;        // Wound Reopening Coefficient
+force ace_medical_treatment_woundStitchTime = 5;          // Time to Stitch wounds
 
-force ace_nightvision_disableNVGsWithSights = false;
-force ace_nightvision_fogScaling = 1;
-force ace_nightvision_effectScaling = 1;
 force ace_nightvision_aimDownSightsBlur = 1;
+force ace_nightvision_disableNVGsWithSights = false;
+force ace_nightvision_effectScaling = 1;
+force ace_nightvision_fogScaling = 1;
 
 force ace_overheating_showParticleEffectsForEveryone = true;
 force ace_overheating_unJamOnreload = true;
@@ -118,10 +123,6 @@ force ace_zeus_remoteWind = false;
 force ace_zeus_revealMines = 0;
 force ace_zeus_zeusAscension = false;
 force ace_zeus_zeusBird = false;
-
-force acex_headless_enabled = true;
-
-force acex_sitting_enable = true;
 
 force acre_sys_core_automaticAntennaDirection = true;
 force acre_sys_core_fullDuplex = true;
@@ -147,12 +148,12 @@ force TFAR_AICanHearSpeaker = true;
 force TFAR_objectInterceptionEnabled = false;
 force TFAR_SameLRFrequenciesForSide = true;
 force TFAR_SameSRFrequenciesForSide = true;
-force TFAR_setting_defaultFrequencies_lr_west = "70";
-force TFAR_setting_defaultFrequencies_sr_west = "110,120,130,140,150,160,170,180,190";
 force TFAR_setting_defaultFrequencies_lr_east = "70";
-force TFAR_setting_defaultFrequencies_sr_east = "110,120,130,140,150,160,170,180,190";
 force TFAR_setting_defaultFrequencies_lr_independent = "70";
+force TFAR_setting_defaultFrequencies_lr_west = "70";
+force TFAR_setting_defaultFrequencies_sr_east = "110,120,130,140,150,160,170,180,190";
 force TFAR_setting_defaultFrequencies_sr_independent = "110,120,130,140,150,160,170,180,190";
+force TFAR_setting_defaultFrequencies_sr_west = "110,120,130,140,150,160,170,180,190";
 
 force ZSN_AllowArsenal = false;
 force ZSN_AllowRandomWeapon = false;
