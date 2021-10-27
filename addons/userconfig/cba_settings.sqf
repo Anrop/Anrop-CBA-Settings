@@ -106,6 +106,7 @@ force ace_nightvision_disableNVGsWithSights = false;
 force ace_nightvision_effectScaling = 1;
 force ace_nightvision_fogScaling = 1;
 
+force ace_overheating_cookoffCoef = 0;                    // Disable weapon cookoff when overheating
 force ace_overheating_showParticleEffectsForEveryone = true;
 force ace_overheating_unJamOnreload = true;
 force ace_overheating_unJamOnSwapBarrel = true;
