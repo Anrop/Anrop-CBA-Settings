@@ -144,6 +144,10 @@ force grad_trenches_functions_allowShortEnvelope = false;
 force grad_trenches_functions_allowVehicleEnvelope = false;
 force grad_trenches_functions_buildFatigueFactor = 0;
 
+force RT_AIdriverlimitspeed = false;
+force RT_damage_T_enableMod = false;
+force RT_damage_W_enableMod = false;
+
 force TFAR_AICanHearPlayer = true;
 force TFAR_AICanHearSpeaker = true;
 force TFAR_objectInterceptionEnabled = false;
