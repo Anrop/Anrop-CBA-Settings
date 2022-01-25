@@ -1,6 +1,20 @@
 # Anrop CBA Settings
 
-Contains default CBA Settings
+Contains default CBA Settings for Anrop.
+
+## Override in mission
+
+Either load this mod to get Anrop's settings as the default values or just use plain CBA and whichever other mods compatbile with CBA settings that you want to adjust.
+
+Settings can easiest be seen and edited via the CBA Settings in-game UI.
+If this is done within Eden Editor while your mission is loaded your settings will be saved within your `mission.sqm` file.
+Remember to set your mission settings as `force` to override server settings.
+
+Another solution is to use the export button and save your changed settings into a `cba_settings.sqf` file inside your mission directories for reuse between multiple missions.
+Your mission's `cba_settings.sqf` will only be loaded if `cba_settings_hasSettingsFile = 1;` is also set in your mission's `description.ext`.
+
+- [CBA Settings System - Mission Settings](https://github.com/CBATeam/CBA_A3/wiki/CBA-Settings-System#mission-settings)
+- [CBA Settings System - Setting Overwrite Cheat Sheet](https://github.com/CBATeam/CBA_A3/wiki/CBA-Settings-System#setting-overwrite-cheat-sheet)
 
 ## Build locally
 
