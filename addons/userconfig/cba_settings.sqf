@@ -146,6 +146,10 @@ force grad_trenches_functions_bigEnvelopeDigTime = 120;
 force grad_trenches_functions_buildFatigueFactor = 0;
 force grad_trenches_functions_shortEnvelopeDigTime = 90;
 
+force RT_AIdriverlimitspeed = false;
+force RT_damage_T_enableMod = false;
+force RT_damage_W_enableMod = false;
+
 force TFAR_AICanHearPlayer = true;
 force TFAR_AICanHearSpeaker = true;
 force TFAR_objectInterceptionEnabled = false;
