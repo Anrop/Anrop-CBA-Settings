@@ -36,7 +36,7 @@ force ace_map_mapShowCursorCoordinates = true;
 
 force ace_medical_AIDamageThreshold = 0.8;                // The amount of damage an AI unit can take before dying.
 force ace_medical_ai_enabledFor = 2;                      // Medical AI is Enabled for all clients and server
-force ace_medical_bleedingCoefficient = 2;                // Coefficient for controlling the bleeding speed
+force ace_medical_bleedingCoefficient = 1.2;              // Coefficient for controlling the bleeding speed
 force ace_medical_blood_bloodLifetime = 900;              // Lifetime of blood drop objects
 force ace_medical_blood_enabledFor = 2;                   // Blood drops enabled for all units
 force ace_medical_blood_maxBloodObjects = 300;            // Maximum number of blood drop objects that can be spawned
@@ -74,6 +74,7 @@ force ace_medical_treatment_allowSelfPAK = 1;             // Enables the use of 
 force ace_medical_treatment_allowSelfStitch = 1;          // Enables the use of surgical kits to stitch oneself
 force ace_medical_treatment_allowSharedEquipment = 0;     // Use patient's equipment first
 force ace_medical_treatment_clearTrauma = 1;              // Body parts are not completely healed until stitched
+force ace_medical_treatment_clearTraumaAfterBandage = false;// Bandages do not clear Trauma
 force ace_medical_treatment_consumePAK = 0;               // PAK is not consumed after use
 force ace_medical_treatment_consumeSurgicalKit = 0;       // Surgical Kit is not consumed after use
 force ace_medical_treatment_convertItems = 0;             // Convert vanilla medical items to ACE Medical items
