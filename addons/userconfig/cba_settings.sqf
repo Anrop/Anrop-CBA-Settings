@@ -137,12 +137,14 @@ force diwako_dui_nametags_renderDistance = 100;
 force dzn_MG_Tripod_DeployedAimCoef = 0.5;
 force dzn_MG_Tripod_DeployedRecoilCoef = 0.5;
 
-force grad_trenches_functions_allowBigEnvelope = false;
+force grad_trenches_functions_allowBigEnvelope = true;
 force grad_trenches_functions_allowGiantEnvelope = false;
 force grad_trenches_functions_allowLongEnvelope = false;
-force grad_trenches_functions_allowShortEnvelope = false;
+force grad_trenches_functions_allowShortEnvelope = true;
 force grad_trenches_functions_allowVehicleEnvelope = false;
+force grad_trenches_functions_bigEnvelopeDigTime = 120;
 force grad_trenches_functions_buildFatigueFactor = 0;
+force grad_trenches_functions_shortEnvelopeDigTime = 90;
 
 force TFAR_AICanHearPlayer = true;
 force TFAR_AICanHearSpeaker = true;
