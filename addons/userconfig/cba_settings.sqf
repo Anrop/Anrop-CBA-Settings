@@ -41,7 +41,7 @@ force ace_medical_blood_bloodLifetime = 900;              // Lifetime of blood d
 force ace_medical_blood_enabledFor = 2;                   // Blood drops enabled for all units
 force ace_medical_blood_maxBloodObjects = 300;            // Maximum number of blood drop objects that can be spawned
 force ace_medical_deathChance = 1;                        // Chance of dying from a fatal injury
-force ace_medical_enableVehicleCrashes = true;            // Crew can receive damage from vehicle collisions
+force ace_medical_enableVehicleCrashes = false;           // Crew can not receive damage from vehicle collisions
 force ace_medical_fatalDamageSource = 2;                  // Either large hits to vital organs or sum of trauma can be fatal
 force ace_medical_feedback_bloodVolumeEffectType = 2;     // Low blood volume effect is Icon + Color Fading
 force ace_medical_feedback_enableHUDIndicators = true;    // HUD Indicators for fractures, splints and tourniquets
@@ -158,6 +158,3 @@ force TFAR_setting_defaultFrequencies_lr_west = "70";
 force TFAR_setting_defaultFrequencies_sr_east = "110,120,130,140,150,160,170,180,190";
 force TFAR_setting_defaultFrequencies_sr_independent = "110,120,130,140,150,160,170,180,190";
 force TFAR_setting_defaultFrequencies_sr_west = "110,120,130,140,150,160,170,180,190";
-
-force ZSN_AllowArsenal = false;
-force ZSN_AllowRandomWeapon = false;
